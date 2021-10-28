@@ -1,4 +1,5 @@
 # @subql-node
+
 ## Description
 
 Indexer service in our @subql toolkit, can load user's subquery then fetch, process and persist to db accordingly.
@@ -6,7 +7,7 @@ Indexer service in our @subql toolkit, can load user's subquery then fetch, proc
 ## Installation
 
 ```bash
-$ npm i -g @subql/node
+$ npm i -g bifrost-subql-node
 ```
 
 ## Running the app
@@ -34,8 +35,8 @@ Options:
                                                                        "silent"]
       --migrate           Migrate db schema (for management tables only)
                                                       [boolean] [default: false]
-      --timeout           Timeout for sandbox to execute the mapping functions 
-                                                                        [number]                                                  
+      --timeout           Timeout for sandbox to execute the mapping functions
+                                                                        [number]
 ```
 
 ## License

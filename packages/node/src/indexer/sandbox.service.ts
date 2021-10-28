@@ -24,11 +24,11 @@ export interface SandboxOption {
 }
 
 const DEFAULT_OPTION: NodeVMOptions = {
-  console: 'redirect',
+  console: 'inherit',
   wasm: false,
   sandbox: {},
   require: {
-    builtin: ['assert', 'buffer', 'crypto', 'util', 'path'],
+    builtin: ['*'],
     external: true,
     context: 'sandbox',
   },
